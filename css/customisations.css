@@ -1,0 +1,402 @@
+/* put your page styling customisations here! */
+
+body {
+	/*night stars background image*/
+	background-color: #525252;
+	padding-bottom: 0px;
+}
+
+	p {
+	    color: goldenrod;
+	    font-size: 1em;
+	}
+
+	.btn-primary {
+	background: linear-gradient(90deg, #ad2c0f 30%, #FB9832 90%);
+	}
+
+	.btn-default {
+	    background-color: lightyellow;
+	}
+
+	.btn-default:active {
+	    background-color: yellow;
+	}
+
+	footer {
+		background-color: #BB3939;
+	}
+
+	.copyright  {
+		font-size: 15px;
+	}
+
+	.navbar {
+		background-color: black;
+		box-shadow: 0px -5px 40px orange;
+	}
+
+	.navbar .navbar-brand {
+		color: orange;
+	}
+
+	.navbar li a {
+		color: white;
+		font-family: 'American Typewriter';
+		font-weight: lighter;
+		letter-spacing: 2px;
+		margin-top: 6px;
+	}
+
+	.nav .open>a,
+	.nav .open>a:hover,
+	.nav .open>a:focus,
+	.navbar li a:hover,
+	.navbar li a:active,
+	.navbar li a:focus
+	 {
+		background-color: transparent;
+		color: orange;
+	}
+
+	.dropdown-menu,
+	.nav {
+		background-color: black;
+	}
+
+	.img-circle {
+    border-radius: 50%;
+    border: 3px orange solid;
+
+	}
+
+/*image circle animations*/
+
+
+	.img-circle:hover {
+	  transform-origin: top center;
+	  animation: swing 1.2s infinite;
+	}
+
+	@keyframes swing {
+	  0% {
+	    transform: rotate3d(0, 0, 1, 25deg);
+	  }
+
+	  	  to {
+	    transform: rotate3d(0, 0, 1, 0deg);
+	  }
+	
+	  100% {
+	    transform: rotate3d(0, 0, 1, -25deg);
+	  }
+}
+
+
+/*image circle animations end*/
+
+
+	.navbar-brand {
+		font-family: 'American Typewriter';
+		font-size: 1.5em;
+		letter-spacing: 5px;
+		margin-bottom: 10px;
+	}
+
+	.logo {
+		position: relative;
+		bottom: 5px;
+		width: 40px;
+	}
+
+
+
+/*Read more button changes*/
+
+.btn.btn-default{
+	background-color: red;
+	color: white;
+	border: 3px dotted white;
+	}
+
+
+.btn.btn-default:hover{
+	background-color: darkred;
+	border: 3px dotted transparent;
+
+}
+
+
+p {
+    color: goldenrod;
+    font-size: 1em;
+}
+
+.btn-default {
+    background-color: lightyellow;
+}
+
+.btn-default:active {
+    background-color: yellow;
+}
+
+.col-lg-4 h2{
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: white;
+}
+
+.navbar {
+	background-color: black;
+	z-index: 2000;
+}
+
+.navbar .navbar-brand {
+	color: orange;
+}
+
+.navbar li a {
+	color: white;
+	font-family: 'American Typewriter';
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin-top: 6px;
+}
+
+.navbar li a:hover,
+.navbar li a:active,
+.navbar li a:focus
+ {
+	background-color: transparent;
+	color: orange;
+}
+
+.dropdown-menu,
+.nav {
+	background-color: black;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 3px orange solid;
+}
+
+.navbar-wrapper .navbar .container {
+	width: 70%;
+}
+
+
+.navbar-brand {
+	font-family: 'American Typewriter';
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	animation: 1s 0s logoFont;
+}
+
+.logo {
+	position: relative;
+	bottom: 5px;
+	width: 40px;
+	animation: .2s 0s infinite skull;
+}
+
+.blood {
+	background: url('../images/blood.png');
+	height: 500px;
+	width: 100%;
+	position: fixed;
+	top: -1000px;
+	animation: 5s 0s moveBlood;
+	z-index: 1000;
+}
+
+
+
+
+@keyframes skull {
+	0% {
+		left: 0;
+		bottom: 10px;
+	}
+
+	100% {
+		left: 5px;
+		bottom: 5px;
+	}
+}
+
+@keyframes logoFont {
+
+	0% {
+		font-size: 0;
+	}
+
+	100% {
+		font-size: 1.5em;
+	}
+
+}
+
+@keyframes moveBlood {
+
+	0% {
+		top: -1000px;
+	}
+
+	100% {
+		top: 1000px;
+	}
+}
+
+.pumpkin1 {
+	position: fixed;
+	top: -1000px;
+	animation: 6s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 70%;
+}
+
+.pumpkin2 {
+	position: fixed;
+	top: -1000px;
+	animation: 9s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 30%;
+}
+
+.pumpkin3 {
+	position: fixed;
+	top: -1000px;
+	animation: 6s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 60%;
+}
+
+.pumpkin4 {
+	position: fixed;
+	top: -1000px;
+	animation: 7s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 40%;
+}
+
+.pumpkin5 {
+	position: fixed;
+	top: -1000px;
+	animation: 8s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 10%;
+}
+
+.pumpkin6 {
+	position: fixed;
+	top: -1000px;
+	animation: 9s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 80%;
+}
+.pumpkin7 {
+	position: fixed;
+	top: -1000px;
+	animation: 10s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 10%;
+}
+
+.pumpkin8 {
+	position: fixed;
+	top: -1000px;
+	animation: 10s 0s movePumpkins;
+	z-index: 1000;
+	padding-left: 60%;
+}
+
+@keyframes movePumpkins {
+
+0% {
+	top: -1000px;
+}
+
+100% {
+	top: 1000px;
+}
+=======
+}
+
+.featureTwo {
+
+	border: solid red 5px;
+}
+
+.featurette-imageTwo {
+
+    animation-name: anima;
+    animation-duration: 4s;
+}
+
+.featuretteTwo{
+
+width: 100%;
+height: 100%;
+border: 10px solid red;
+animation-name: anima;
+animation-duration: 2s;
+
+}
+
+#title{
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+@keyframes anima {
+    0%   {width: 25%; height: 25%; }
+    25%  {width: 50%; height: 50%; }
+    50%  {width: 70%; height: 70%;}
+    75%  {width: 80%; height: 80%;}
+    100% {width: 100%;height: 100%;}
+}
+
+.featurette-heading {
+
+	text-shadow: 2px 2px;
+	color: red;
+}
+
+
+ .lead {
+    
+background-image: url("../images/giphy.gif");
+ 	
+ }
+#dogs {
+	border: 10px inset orange;
+	padding: 20px;
+	font-family: emilys-candy;
+}
+
+
+.feat-1-img {
+	padding-top: 20px;
+}
+
+.cycle-slideshow {
+	width: 100%;
+}
+
+.cycle-slideshow img {
+	max-width: 100%;
+}
+
+@media (max-width: 1310px) {
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.navbar-toggle .icon-bar {
+		background-color: white;
+		margin-top: 5px;
+	}
+}
