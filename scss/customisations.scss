@@ -62,8 +62,13 @@ body {
  * Header
  */
 
+ .navbar-wrapper{
+    background-color: black;
+ }
+
 .masthead {
   margin-bottom: 2rem;
+  background-color: black;
 }
 
 .masthead-brand {
@@ -74,7 +79,7 @@ body {
   padding: .25rem 0;
   font-weight: 700;
   color: rgba(255,255,255,.5);
-  background-color: transparent;
+  background-color: black;
   border-bottom: .25rem solid transparent;
 }
 
@@ -160,15 +165,3 @@ body {
   }
 }
 
-.madeup-class{
-  color: red;
-}
-
-.another-class{
-  color:black;
-  text-align: center;
-}
-
-.new-class{
-  color: purple;
-}
