@@ -12,7 +12,8 @@
     "gulp-watch": "^4.3.11"
   },
   "devDependencies": {
-    "gulp-about": "^1.1.0"
+    "gulp-about": "^1.1.0",
+    "gulp-refresh": "^1.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
