@@ -400,3 +400,14 @@ background-image: url("../images/giphy.gif");
 		margin-top: 5px;
 	}
 }
+
+/*======================================       Davids CSS         =======*/
+
+.threeCircles{
+	
+	background: linear-gradient(hsl(207, 19%, 36%), hsl(199, 18%, 36%));
+}
+
+
+
+
