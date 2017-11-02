@@ -133,3 +133,43 @@ body {
   }
 }
 
+.Liz h1{
+color: #C340FF;
+font-family: 'Indie Flower', cursive;
+font-size: 40px;
+font-weight: bold;
+text-shadow: 20px;
+}
+
+.Liz p {
+
+margin-bottom: 80px;
+
+
+
+}
+
+.daniel h1{
+color: orange;
+font-family: 'Indie Flower', cursive;
+font-size: 40px;
+font-weight: bold;
+text-shadow: 20px;
+}
+
+.daniel p{
+margin-bottom: 80px;
+}
+
+.david h1{
+color: blue;
+font-family: 'Indie Flower', cursive;
+font-size: 40px;
+font-weight: bold;
+text-shadow: 20px;
+}
+
+.david p{
+margin-bottom: 80px;
+color: black;
+}
