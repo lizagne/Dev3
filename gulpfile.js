@@ -2,8 +2,9 @@ let gulp = require('gulp');
 let cleanCSS = require('gulp-clean-css');
 let rename = require('gulp-rename');
 let sass = require('gulp-sass');
+let about = require('gulp-about');
 let watch = require('gulp-watch');
-let gulpSequence = require('gulp-sequence')
+let gulpSequence = require('gulp-sequence');
 
 
 gulp.task('sass', function () {
@@ -27,4 +28,10 @@ gulp.task('styles', function(callback){
 
 gulp.task('watch', function () {
 	gulp.watch('./scss/*.scss', ['styles']);
+});
+
+gulp.task('about', function () {
+    return gulp.src('package.json')
+        .pipe(about())
+        .pipe(gulp.dest('dist'));  // writes dist/about.json 
 });
