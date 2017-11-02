@@ -5925,6 +5925,9 @@ body {
 .navbar-nav, .navbar-header {
   display: inline-block; }
 
+.navbar-inverse {
+  background-color: red; }
+
 /*
  * Cover
  */
