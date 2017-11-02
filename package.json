@@ -11,7 +11,9 @@
     "gulp-sequence": "^0.4.6",
     "gulp-watch": "^4.3.11"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-about": "^1.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
