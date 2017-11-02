@@ -40,11 +40,11 @@ gulp.task('rebuild-then-reload', ['rebuild-everything'], function (done) {
     browserSync.reload();
     done();
 });
-
+ 
 gulp.task('default', function () {
-  return gulp.src('./app/**.*.js')
+  return gulp.src('./*.html/*.customizations.css')
     .pipe(tabify(4, true))
-    .pipe(gulp.dest('./app'));
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('watch', function () {
