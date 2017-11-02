@@ -4,16 +4,17 @@
   "description": "npm init --yes",
   "main": "index.js",
   "dependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-about": "^1.1.0",
     "gulp-clean-css": "^3.9.0",
-    "gulp-refresh": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sequence": "^0.4.6",
-    "gulp-tabify": "0.0.2",
     "gulp-watch": "^4.3.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-about": "^1.1.0",
+    "gulp-refresh": "^1.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
