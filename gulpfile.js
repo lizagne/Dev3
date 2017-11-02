@@ -5,8 +5,10 @@ let sass = require('gulp-sass');
 let watch = require('gulp-watch');
 let gulpSequence = require('gulp-sequence')
 let browserSync = require('browser-sync').create();
+let tabify = require('gulp-tabify');
 
 // Static server
+
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
@@ -37,6 +39,12 @@ gulp.task('rebuild-everything', function(callback){
 gulp.task('rebuild-then-reload', ['rebuild-everything'], function (done) {
     browserSync.reload();
     done();
+});
+
+gulp.task('default', function () {
+  return gulp.src('./app/**.*.js')
+    .pipe(tabify(4, true))
+    .pipe(gulp.dest('./app'));
 });
 
 gulp.task('watch', function () {

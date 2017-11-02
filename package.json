@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "gulp-about": "^1.1.0",
-    "gulp-refresh": "^1.1.0"
+    "gulp-refresh": "^1.1.0",
+    "gulp-tabify": "0.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
